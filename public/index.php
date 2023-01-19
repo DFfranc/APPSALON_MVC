@@ -1,6 +1,6 @@
 <?php 
 
-require_once __DIR__ . '/../includes/app.php';
+require_once '/apache/htdocs/AppSalon/includes/app.php';
 
 use Controllers\AdminController;
 use Controllers\APIController;
