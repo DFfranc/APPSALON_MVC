@@ -1,1 +1,0 @@
-web: vendor/bin/railway-php-apache2 public/
