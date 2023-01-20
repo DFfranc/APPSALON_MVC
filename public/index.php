@@ -1,6 +1,6 @@
 <?php 
 
-require_once ($_SERVER['DOCUMENT_ROOT'] . '/../includes/app.php');
+require_once ($_SERVER['DOCUMENT_ROOT'] . '\..' . '\includes\app.php');
 
 use Controllers\AdminController;
 use Controllers\APIController;
