@@ -1,6 +1,6 @@
 <?php 
 
-require_once 'home/appsalonmvcp/www/includes/app.php';
+require_once 'home/appsalonmvcp/new2/includes/app.php';
 
 use Controllers\AdminController;
 use Controllers\APIController;
