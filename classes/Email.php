@@ -36,7 +36,7 @@ class Email {
         $contenido = "<html>";
         $contenido .= "<p>Hola <strong>" . $this -> nombre . "</strong>. </p> ";
         $contenido .= "<p>Has creado tu cuenta en AppSalon, solo debes confirmarla presionando el siguiente enlace.</p>";
-        $contenido .= "<p>Presiona aquí: <a href='http://localhost:3000/confirmar-cuenta?token=" . $this->token ."'> Confirmar Cuenta </a> </p>";
+        $contenido .= "<p>Presiona aquí: <a href='appsalonmvcproject.alwaysdata.net/confirmar-cuenta?token=" . $this->token ."'> Confirmar Cuenta </a> </p>";
         $contenido .= "<p>Si tu no solicitaste esta cuenta, puedes ignorar el mensaje.</p>";
         $contenido .= '</html>';
 
