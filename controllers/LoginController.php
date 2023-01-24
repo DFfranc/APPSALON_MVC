@@ -81,7 +81,7 @@ class LoginController{
 
                     // Enviar el email
                     $email = new Email( $usuario -> email, $usuario -> nombre, $usuario->token);
-                    $email -> enviarInstrucciones();
+                    $email -> enviarInstruccionesRestablecerPassword();
 
 
                     // Alerta de exito
